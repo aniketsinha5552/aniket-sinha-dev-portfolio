@@ -13,13 +13,14 @@ export default function Contact() {
       <div id='icons'>
       <a href='https://github.com/aniketsinha5552' target='_blank'><GitHubIcon/></a>
       <a href='https://www.linkedin.com/in/aniket-sinha-a2ab29241/' target='_blank'><LinkedInIcon/></a>
-      <a href="mailto:aniketsinha5552@gmail.com"><EmailIcon/></a>
+      <a href="mailto:aniketsinha5552@gmail.com" target='_blank'><EmailIcon/></a>
       <a href='https://www.instagram.com/aniket._sinha/' target='_blank'><InstagramIcon/></a>
 
       </div>
 
       <div id='sayHello'>
-        <button>Say Hello</button>
+      <a href="mailto:aniketsinha5552@gmail.com" target='_blank'><button id="helloBtn">Say Hello</button></a>
+        
       </div>
       
     </div>

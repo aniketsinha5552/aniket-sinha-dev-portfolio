@@ -26,7 +26,7 @@
     place-items: center;
     display: grid;
 }
-#sayHello>button{
+#helloBtn{
     background-color: transparent;
     border: 2px solid rgb(19, 155, 128);
     color: rgb(19, 155, 128);

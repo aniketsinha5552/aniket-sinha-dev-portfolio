@@ -36,3 +36,29 @@
     padding: 2px 2px;
 }
 
+#gitButton{
+    background-color: transparent;
+    border: 0px ;
+    margin-top: 10px;
+}
+#gitButton>a{
+    color:  rgb(188, 186, 186);
+}
+#webButton{
+    background-color: transparent;
+    border: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#webButton>a{
+    color: rgb(188, 186, 186);
+}
+
+#line3{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(19, 155, 128);
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+

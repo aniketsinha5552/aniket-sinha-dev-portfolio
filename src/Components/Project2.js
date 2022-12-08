@@ -4,6 +4,8 @@ import valo from './Images/valo.jpg'
 import sort from './Images/sorting.jpg'
 import linkedIn from './Images/linkedIn.jpg'
 import chat from './Images/superChat.jpg'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
 
 
 export default function Project2() {
@@ -53,8 +55,8 @@ export default function Project2() {
                 <div id='techStack'>
                     {tech.map((techno)=><span key={techno}>{techno}. </span>)}
                 </div>
-                <span><button><a href={gitLink} target='_blank'>GitHub</a></button></span>
-                <span><button><a href={websiteLink} target='_blank'>Website</a></button></span>
+                <span><button id='gitButton'><a href={gitLink} target='_blank'><GitHubIcon/></a></button></span>
+                <span><button id='webButton'><a href={websiteLink} target='_blank'><LaunchIcon/></a></button></span>
 
                 
             </div>
@@ -101,6 +103,7 @@ export default function Project2() {
     
     <div id='project2'>
         <h2 id='projHead'>Some Things I've Built</h2>
+        <div id='line3'></div>
         <div id='selector'>
             <button onClick={()=>handleClick(0)}  style={{backgroundColor: activButton1? 'transparent':'white'}}>Valorant Agents Info</button>
             <button onClick={()=>handleClick(1)} style={{backgroundColor: activButton2? 'transparent':'white'}}>LinkedIn Clone</button>
