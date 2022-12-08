@@ -1,0 +1,55 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+.card{
+    height:200px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.card>img{
+    width: 100%;
+    height: 175px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.projects{
+    width: 800px;
+    display: grid;
+    text-align: center;
+}
+.projects>h2{
+    color: white;
+    font-size: 30px;
+}
+
+#line{
+    height: 1px;
+    width: 800px;
+    background-color: rgb(19, 155, 128);
+}
+
+.card>button{
+   margin-top: 10px;
+   border: 2px solid rgb(19, 155, 128);
+   border-radius: 2px;
+   height: 30px;
+   background-color: transparent;
+}
+.card>button>a{
+    color: rgb(19, 155, 128);
+}
+
+.card>a{
+    color:black ;
+}
+
+

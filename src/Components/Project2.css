@@ -1,0 +1,38 @@
+#projectImg{
+    height: 200px;
+    width: 400px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(19, 155, 128);
+    border-radius: 10px;
+}
+
+#projHead{
+    color: white;
+    
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#selector>button{
+    background-color: white;
+    color: rgb(19, 155, 128);
+    border: 1px solid rgb(19, 155, 128);
+    padding: 2px 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 2px;
+}
+
+#projectName{
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+    margin-bottom: -2px;
+}
+
+#techStack{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 2px 2px;
+}
+

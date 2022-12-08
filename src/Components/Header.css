@@ -1,0 +1,46 @@
+.header{
+    background-color: rgb(10, 25, 47);
+    width: 100vw;
+    display: flex;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    overflow: hidden;
+}
+
+.header>h2{
+    padding: 5px 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#navbar{
+    padding: 8px 5px;
+    margin-left: 100px;
+    margin-top: 18px;
+    color: rgb(19, 155, 128);
+}
+
+#navbar>span:hover{
+    cursor: pointer;
+}
+#navbar>span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logo{
+    height:80px;
+    margin-top: -10px;
+}
+
+#resume{
+    height: 30px;
+    margin-top: 25px;
+    border: 2px solid rgb(19, 155, 128);
+    background-color: transparent;
+    color: rgb(19, 155, 128);
+    border-radius: 2px;
+    
+}

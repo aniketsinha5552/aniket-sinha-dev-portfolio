@@ -1,0 +1,46 @@
+.edu>h2{
+    color: white;
+}
+
+#xth{
+    text-align: left;
+    margin-top: 10px;
+    padding: 2px 2px;
+    border: 1px solid rgb(19, 155, 128);
+    width: 100%;
+    border-radius: 5px;
+}
+
+#xiith{
+    text-align: left;
+    margin-top: 10px;
+    padding: 2px 2px;
+    border: 1px solid rgb(19, 155, 128);
+    width: 100%;
+    border-radius: 5px;
+}
+
+#ug{
+  
+  margin-top: 10px;
+  padding: 2px 2px;
+  border: 1px solid rgb(19, 155, 128);
+  width: 100%;
+  border-radius: 5px;
+}
+
+#line2{
+    height: 1px;
+    width: 100px;
+    color: rgb(19, 155, 128);
+}
+
+.edu{
+    display: grid;
+    place-items: center;
+    width: 500px;
+}
+
+h4{
+    color: rgb(19, 155, 128);
+}
