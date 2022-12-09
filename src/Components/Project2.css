@@ -62,3 +62,11 @@
     margin-bottom: 10px;
 }
 
+@media all and (max-width: 500px){
+    #projectImg{
+        height: 200px;
+        width: 340px;
+        
+    }
+}
+
