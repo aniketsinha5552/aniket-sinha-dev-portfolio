@@ -44,3 +44,11 @@
 h4{
     color: rgb(19, 155, 128);
 }
+
+@media all and (max-width:500px){
+    .edu{
+        display: grid;
+        place-items: center;
+        width: 300px;
+    }
+}

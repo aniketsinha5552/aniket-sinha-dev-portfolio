@@ -44,3 +44,12 @@
     border-radius: 2px;
     
 }
+
+@media all and (max-width: 500px){
+    #navbar{
+        display: none;
+    }
+    #logo{
+       margin-left: -20px; 
+    }
+}

@@ -27,7 +27,7 @@ export default function Project2() {
         if(item==='LinkedIn Clone'){
             desc='A clone website of LinkedIn home page.'
             imageUrl = `${linkedIn}`
-            tech = ['React','Redux','Bootsrap']
+            tech = ['React','Redux','Bootstrap']
             websiteLink= 'https://aniketsinha5552.github.io/linkedin-clone/' 
             gitLink='https://github.com/aniketsinha5552/linkedin-clone' 
           }
@@ -51,12 +51,12 @@ export default function Project2() {
             <div key={item} id='card'>
                 <p id='projectName'>{item}</p>
                 <p id='projDesc'>{desc}</p>
-                <img id='projectImg' src={imageUrl}></img>
+                <img id='projectImg' src={imageUrl} alt=''></img>
                 <div id='techStack'>
                     {tech.map((techno)=><span key={techno}>{techno}. </span>)}
                 </div>
-                <span><button id='gitButton'><a href={gitLink} target='_blank'><GitHubIcon/></a></button></span>
-                <span><button id='webButton'><a href={websiteLink} target='_blank'><LaunchIcon/></a></button></span>
+                <span><button id='gitButton'><a href={gitLink} target='_blank' rel='noreferrer'><GitHubIcon/></a></button></span>
+                <span><button id='webButton'><a href={websiteLink} target='_blank' rel='noreferrer'><LaunchIcon/></a></button></span>
 
                 
             </div>
@@ -73,19 +73,19 @@ export default function Project2() {
             setActiveButton3(false)
             setActiveButton4(false)
         }
-        else if(val==1){
+        else if(val===1){
             setActiveButton1(false)
             setActiveButton2(true)
             setActiveButton3(false)
             setActiveButton4(false)
         }
-        else if(val==2){
+        else if(val===2){
             setActiveButton1(false)
             setActiveButton2(false)
             setActiveButton3(true)
             setActiveButton4(false)
         }
-        else if(val==3){
+        else if(val===3){
             setActiveButton1(false)
             setActiveButton2(false)
             setActiveButton3(false)
@@ -105,10 +105,10 @@ export default function Project2() {
         <h2 id='projHead'>Some Things I've Built</h2>
         <div id='line3'></div>
         <div id='selector'>
-            <button onClick={()=>handleClick(0)}  style={{backgroundColor: activButton1? 'transparent':'white'}}>Valorant Agents Info</button>
-            <button onClick={()=>handleClick(1)} style={{backgroundColor: activButton2? 'transparent':'white'}}>LinkedIn Clone</button>
-            <button onClick={()=>handleClick(2)} style={{backgroundColor: activButton3? 'transparent':'white'}}>Sorting Visualizer</button>
-            <button onClick={()=>handleClick(3)} style={{backgroundColor: activButton4? 'transparent':'white'}}>Super Chat</button>
+            <button onClick={()=>handleClick(0)}  style={{backgroundColor: activButton1? 'transparent':'#f5f5f5'}}>Valorant Agents Info</button>
+            <button onClick={()=>handleClick(1)} style={{backgroundColor: activButton2? 'transparent':'#f5f5f5'}}>LinkedIn Clone</button>
+            <button onClick={()=>handleClick(2)} style={{backgroundColor: activButton3? 'transparent':'#f5f5f5'}}>Sorting Visualizer</button>
+            <button onClick={()=>handleClick(3)} style={{backgroundColor: activButton4? 'transparent':'#f5f5f5'}}>Super Chat</button>
         </div>
         <div>
             {cards[count]}
