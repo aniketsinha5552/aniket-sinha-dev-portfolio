@@ -2,5 +2,6 @@
     background-color:  rgb(10, 25, 47);;
     display: grid;
     place-items: center;
-    color: rgb(136, 146, 176);;
+    color: rgb(136, 146, 176);
+    overflow: hidden;
 }

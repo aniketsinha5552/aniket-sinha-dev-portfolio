@@ -1,7 +1,7 @@
 
 .outer{
-    width: 100vw;
-    height: 100%;
+    /* width: 100vw;
+    height: 100%; */
     background-color:  rgb(10, 25, 47);
     display: grid;
     place-content: center;
@@ -17,10 +17,53 @@
 }
 #title{
     color: rgb(167, 167, 167);
+    font-size: 25px;
 }
 #age{
     color: rgb(142, 142, 142);
     font-size: 20px;
+}
+
+#profilePic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(19, 155, 128);
+}
+
+@media all and (max-width: 500px){
+   
+.outer{
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+
+#hi{
+    color: rgb(19, 155, 128);
+}
+
+#name{
+    font-size: 60px;
+    color: white;
+}
+#title{
+    color: rgb(167, 167, 167);
+    font-size: 25px;
+}
+#age{
+    color: rgb(142, 142, 142);
+    font-size: 20px;
+}
+
+#profilePic{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+   
+    
+}
 }
 
 

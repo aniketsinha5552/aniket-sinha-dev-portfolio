@@ -17,7 +17,7 @@ export default function Project2() {
         let websiteLink=''
         let gitLink='https://github.com/aniketsinha5552'
         if(item==='Valorant Agents Info'){
-          desc='Know all the info about your favourite Valorant agents here.' 
+          desc='Know all the info about your favourite Valorant agents here. Created using HTML5 CSS3 and JavaScript' 
           imageUrl = `${valo}`
           tech = ['JavaScript','HTML5','CSS5']
           websiteLink= 'https://valorant-agents-info.netlify.app/'
@@ -105,10 +105,10 @@ export default function Project2() {
         <h2 id='projHead'>Some Things I've Built</h2>
         <div id='line3'></div>
         <div id='selector'>
-            <button onClick={()=>handleClick(0)}  style={{backgroundColor: activButton1? 'transparent':'#f5f5f5'}}>Valorant Agents Info</button>
-            <button onClick={()=>handleClick(1)} style={{backgroundColor: activButton2? 'transparent':'#f5f5f5'}}>LinkedIn Clone</button>
-            <button onClick={()=>handleClick(2)} style={{backgroundColor: activButton3? 'transparent':'#f5f5f5'}}>Sorting Visualizer</button>
-            <button onClick={()=>handleClick(3)} style={{backgroundColor: activButton4? 'transparent':'#f5f5f5'}}>Super Chat</button>
+            <button onClick={()=>handleClick(0)}  style={{backgroundColor: activButton1? 'white':'transparent'}}>.Valorant Agents Info</button>
+            <button onClick={()=>handleClick(1)} style={{backgroundColor: activButton2? 'white':'transparent'}}>.LinkedIn Clone</button>
+            <button onClick={()=>handleClick(2)} style={{backgroundColor: activButton3? 'white':'transparent'}}>.Sorting Visualizer</button>
+            <button onClick={()=>handleClick(3)} style={{backgroundColor: activButton4? 'white':'transparent'}}>.Super Chat</button>
         </div>
         <div>
             {cards[count]}

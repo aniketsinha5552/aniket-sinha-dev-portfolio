@@ -7,29 +7,28 @@ import {
   MoveOut,
   Sticky,
   Move,
-  StickyIn,
-  FadeIn,
-  ZoomIn,
-  MoveIn,
 
 } from "react-scroll-motion";
 import "./App.css";
 import Contact from "./Components/Contact";
-import Edu from "./Components/Edu";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
-import Projects from "./Components/Projects";
 import Footer from './Components/Footer';
 import Project2 from "./Components/Project2";
+import Edu2 from "./Components/Edu2";
+
+import * as React from 'react'
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
+    <ChakraProvider>
+      <div className="App">
       <Header/>
       <ScrollContainer>
         <div id="home">
           <ScrollPage>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -400))}>
+            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -600))}>
               <section>
                 <Home />
               </section>
@@ -39,7 +38,7 @@ function App() {
 
         <div id="projects">
           <ScrollPage>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+            <Animator animation={batch(Move(),MoveOut(0, 250),Fade())}>
               <section>
                 <Project2 />
               </section>
@@ -49,9 +48,9 @@ function App() {
 
         <div id="edu">
           <ScrollPage>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+            <Animator animation={batch(Move(),MoveOut(0, -500))}>
               <section id="education">
-                <Edu />
+                <Edu2 />
               </section>
             </Animator>
           </ScrollPage>
@@ -70,6 +69,8 @@ function App() {
       </ScrollContainer>
       <Footer/>
     </div>
+    </ChakraProvider>
+    
   );
 }
 

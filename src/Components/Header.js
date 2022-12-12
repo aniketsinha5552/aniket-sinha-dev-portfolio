@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='header'>
          <h2><img id='logo' src={as}></img></h2>
-         <a href="https://drive.google.com/file/d/1McXJz9iLfHiYrDrkA9WPr0azan9amzf8/view?usp=sharing" target='_blank'><button id='resume'>Resume</button></a> 
+         <a href="https://drive.google.com/file/d/1Wu_rVfwW7MMW5IKKnUwrjV2gZ3dOLf8J/view?usp=sharing" target='_blank'><button id='resume'>Resume</button></a> 
          <div id="navbar">
           
           <span>

@@ -41,7 +41,8 @@
     border: 2px solid rgb(19, 155, 128);
     background-color: transparent;
     color: rgb(19, 155, 128);
-    border-radius: 2px;
+    border-radius: 3px;
+    padding: 2px 2px;
     
 }
 
@@ -52,4 +53,5 @@
     #logo{
        margin-left: -20px; 
     }
+    
 }
