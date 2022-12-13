@@ -17,7 +17,7 @@ export default function Project2() {
         let websiteLink=''
         let gitLink='https://github.com/aniketsinha5552'
         if(item==='Valorant Agents Info'){
-          desc='Know all the info about your favourite Valorant agents here. Created using HTML5 CSS3 and JavaScript' 
+          desc='Know all the info about your favourite Valorant agents here. All the data is fectched from Valorant Agents API.' 
           imageUrl = `${valo}`
           tech = ['JavaScript','HTML5','CSS5']
           websiteLink= 'https://valorant-agents-info.netlify.app/'
@@ -25,21 +25,21 @@ export default function Project2() {
 
         }
         if(item==='LinkedIn Clone'){
-            desc='A clone website of LinkedIn home page.'
+            desc='A clone website of LinkedIn home page. Has a user authentication system. A user can post messages on the timeline which can be viewed by all the users.'
             imageUrl = `${linkedIn}`
-            tech = ['React','Redux','Bootstrap']
+            tech = ['React','Redux','Bootstrap', 'Material UI']
             websiteLink= 'https://aniketsinha5552.github.io/linkedin-clone/' 
             gitLink='https://github.com/aniketsinha5552/linkedin-clone' 
           }
           if(item==='Sorting Visualizer'){
-            desc='Visualizes merge sort algo.'
+            desc='Visualizes real time sorting of Array. Uses Merge sort algorithm.'
             imageUrl = `${sort}`
             tech = ['React']  
             websiteLink='https://aniketsinha5552.github.io/Sorting-Visualizer-1/'  
             gitLink='https://github.com/aniketsinha5552/Sorting-Visualizer-1'
           }
           if(item==='Super Chat'){
-            desc='A group chatting application.'
+            desc='A single server group chatting application.'
             imageUrl = `${chat}`
             tech = ['React','FireBase']
             websiteLink=''  
