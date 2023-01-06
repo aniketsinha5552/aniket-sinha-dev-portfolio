@@ -1,0 +1,45 @@
+#about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#about-head{
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    border-bottom: 1px solid rgb(19, 155, 128);
+}
+
+#about-left>img{
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 2px 2px;
+    box-shadow: 5px 8px 8px 2px rgb(1, 2, 14);
+}
+
+#about-right{
+    max-width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 23px;    
+    border-radius: 10px;
+    
+}
+
+#about-right>p{
+  color: whitesmoke;
+}
+
+@media all and (max-width:500px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}

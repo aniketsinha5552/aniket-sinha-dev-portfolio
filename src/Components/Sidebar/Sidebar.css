@@ -1,0 +1,17 @@
+.sidebar{
+    font-size: 16px;
+    transform: rotate(90deg);
+    position: fixed;
+    right: 0;
+    bottom: 170px;
+    margin-right: -150px;
+    font-family: sans-serif;
+    color: rgb(207, 198, 198);
+
+}
+
+@media all and (max-width:500px){
+    .sidebar{
+        display: none;
+    }
+}

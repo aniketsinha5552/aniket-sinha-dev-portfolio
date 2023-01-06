@@ -5,47 +5,56 @@
     background-color:  rgb(10, 25, 47);
     display: grid;
     place-content: center;
+    margin-right: 200px;
 }
 
 #hi{
     color: rgb(19, 155, 128);
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 #name{
-    font-size: 60px;
+    font-size: 65px;
     color: white;
+    text-shadow: 2px 2px rgb(19, 155, 128) ;
 }
 #title{
     color: rgb(167, 167, 167);
-    font-size: 25px;
+    font-size: 30px;
 }
 #age{
     color: rgb(142, 142, 142);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #profilePic{
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    border: 2px solid rgb(19, 155, 128);
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    /* border: 2px solid rgb(19, 155, 128); */
+    /* box-shadow: 3px 10px 8px rgb(4, 12, 24); */
 }
 
 @media all and (max-width: 500px){
    
 .outer{
     width: 100vw;
-    display: grid;
-    place-content: center;
     overflow: hidden;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 #hi{
     color: rgb(19, 155, 128);
+    
 }
 
 #name{
-    font-size: 60px;
+    font-size: 40px;
     color: white;
 }
 #title{

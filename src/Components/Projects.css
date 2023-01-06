@@ -1,56 +1,126 @@
-.cards{
-    display: flex;
-    flex-direction: row;
-    width: 800px;
-    height: 250px;
-    overflow-x: hidden;
-    overflow-y:hidden;
-}
-.card{
-    height:200px;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
-    align-items: center;
-    border: 1px solid black;
-}
-.card>img{
-    width: 100%;
-    height: 175px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
 
 .projects{
-    width: 800px;
-    display: grid;
-    text-align: center;
+    padding: 5px 5px;
+    max-width: 1200px;
+    margin-left: 30px;
+   
 }
 .projects>h2{
     color: white;
-    font-size: 30px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(19, 155, 128);
 }
 
-#line{
-    height: 1px;
-    width: 800px;
-    background-color: rgb(19, 155, 128);
+#projectTitle{
+  color: white;
+  margin-bottom: 5px;
 }
 
-.card>button{
-   margin-top: 10px;
-   border: 2px solid rgb(19, 155, 128);
-   border-radius: 2px;
-   height: 30px;
-   background-color: transparent;
-}
-.card>button>a{
-    color: rgb(19, 155, 128);
+
+#projectDesc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.card>a{
-    color:black ;
+#projectDesc>img{
+    width: 50%;
+    flex: 0.7;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgb(0, 0, 0);
 }
+
+#projectDescLeft{
+    flex: 0.3;
+    padding: 5px 5px;
+    background-color: transparent;
+    color: rgb(250, 249, 249);
+    margin-left: 10px;
+    border-radius: 10px;
+    overflow: scroll;
+    font-weight: 600;
+    box-shadow:  1px 5px 10px rgb(0, 0, 0);
+}
+
+#projectDescLeft::-webkit-scrollbar{
+    display: none;
+}
+
+#descHead{
+   margin-bottom: 5px;
+}
+
+#other-projects{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pcard{
+    background-color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow:  5px 5px 10px rgb(2, 4, 26);
+    position: relative;
+}
+
+#pcard:hover{
+    scale: 1.1;
+    z-index: 9999;
+    
+}
+
+#overlay{
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity .2s;
+    height: 200px;
+    width: 400px;
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    align-items: flex-end;
+}
+
+#overlay:hover{
+    opacity: 1;
+}
+
+@media all and (max-width:600px){
+    #other{
+        display: none;
+    }
+    #projectDesc{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    #projectDesc>img{
+        width: 100%;
+    }
+
+    
+}
+
+
+
 
 
 
