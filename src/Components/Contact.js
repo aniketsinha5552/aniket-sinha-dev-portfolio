@@ -12,14 +12,14 @@ export default function Contact() {
     <div className='contact'>
       <motion.h2
        initial={{ opacity: 0,}}
-       whileInView={{ opacity: 1, boxShadow:"10px 10px 0 rgb(0,0,0,0.5)"}}
-       transition={{duration:2}}
+       whileInView={{ opacity: 1, boxShadow:"10px 10px 0 rgb(0,0,0,0.5)", scale:1.1}}
+       transition={{duration:1}}
       >Get In Touch!</motion.h2>
       <div id='icons'>
-      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:1}}  href='https://github.com/aniketsinha5552' target='_blank'><GitHubIcon/></motion.a>
-      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:1}}  href='https://www.linkedin.com/in/aniket-sinha-a2ab29241/' target='_blank'><LinkedInIcon/></motion.a>
-      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:1}}  href="mailto:aniketsinha5552@gmail.com" target='_blank'><EmailIcon/></motion.a>
-      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:1}}  href='https://www.instagram.com/aniket._sinha/' target='_blank'><InstagramIcon/></motion.a>
+      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:0.5}}  href='https://github.com/aniketsinha5552' target='_blank'><GitHubIcon/></motion.a>
+      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:0.5}}  href='https://www.linkedin.com/in/aniket-sinha-a2ab29241/' target='_blank'><LinkedInIcon/></motion.a>
+      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:0.5}}  href="mailto:aniketsinha5552@gmail.com" target='_blank'><EmailIcon/></motion.a>
+      <motion.a whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:0.5}}  href='https://www.instagram.com/aniket._sinha/' target='_blank'><InstagramIcon/></motion.a>
 
       </div>
 

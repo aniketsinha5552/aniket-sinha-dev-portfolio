@@ -30,12 +30,21 @@ export default function About() {
             Developer from India. I enjoy creating things on the internet.
           </p>
           <p>Here are a few technologies I’ve been working with recently:</p>
-          <UnorderedList style={{color:"rgb(19,155,128)"}}>
+          
+          <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
+          <UnorderedList style={{color:"rgb(19,155,128)",marginLeft:"30px"}}>
             <ListItem>ReactJs</ListItem>
             <ListItem>NodeJs</ListItem>
             <ListItem>JavaScript</ListItem>
             <ListItem>MongoDB</ListItem>
           </UnorderedList>
+          <UnorderedList style={{color:"rgb(19,155,128)",marginRight:"60px"}}>
+            <ListItem>SQL</ListItem>
+            <ListItem>C++</ListItem>
+            <ListItem>Azure</ListItem>
+            <ListItem>Github</ListItem>
+          </UnorderedList>
+          </div>
         </div>
       </div>
     </div>

@@ -36,6 +36,13 @@
     /* box-shadow: 3px 10px 8px rgb(4, 12, 24); */
 }
 
+#scrollArrow{
+   place-self: center;
+   margin-top: 10px;
+   margin-left: 100px;
+   color: rgb(19, 155, 128);
+}
+
 @media all and (max-width: 500px){
    
 .outer{
@@ -73,6 +80,12 @@
    
     
 }
+#scrollArrow{
+    place-self: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: rgb(19, 155, 128);
+ }
 }
 
 

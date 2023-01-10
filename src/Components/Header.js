@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           </span>
         </div>
-        <a href="https://drive.google.com/file/d/1Wu_rVfwW7MMW5IKKnUwrjV2gZ3dOLf8J/view?usp=sharing" target='_blank'><motion.button whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:1}}  id='resume'>Resume</motion.button></a> 
+        <a href="https://drive.google.com/file/d/1Wu_rVfwW7MMW5IKKnUwrjV2gZ3dOLf8J/view?usp=sharing" target='_blank'><motion.button whileHover={{ boxShadow:"5px 5px 0 rgb(0,0,0,0.5)", scale:1.05}} transition={{duration:0.5}}  id='resume'>Resume</motion.button></a> 
        
     </div>
   )

@@ -42,4 +42,14 @@
         flex-direction: column;
         margin-top: 50px;
     }
+    #about-left>img{
+        width: 250px;
+        height: 250px;
+        border-radius: 175px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 2px 2px;
+        box-shadow: 5px 8px 8px 2px rgb(1, 2, 14);
+    }
 }

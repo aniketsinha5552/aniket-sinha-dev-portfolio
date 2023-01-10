@@ -3,6 +3,7 @@ import "./Home.css";
 import profilePic from './Images/profilePic.jpg'
 import { motion } from "framer-motion";
 import gif from './Images/bot.gif'
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 export default function Home() {
   return (
@@ -56,6 +57,12 @@ export default function Home() {
         whileInView={{ opacity: 1,x:100 }}
         id='age'>21
         </motion.h3>
+       <motion.div id="scrollArrow"
+       whileInView={{scale:1.5, transition:{yoyo:Infinity,duration:0.5}}}
+       >
+       <KeyboardDoubleArrowDownIcon />
+       </motion.div>
+        
        
     </motion.div>
   );
